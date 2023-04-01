@@ -1,0 +1,37 @@
+.container1
+{
+  /* border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px; */
+  padding: 2%;
+  margin: 0.5%;
+  /* background-image: url(https://media.istockphoto.com/photos/abstract-blur-of-organic-agricultural-farm-panoramic-background-with-picture-id1046450922?k=20&m=1046450922&s=612x612&w=0&h=u8UiUBXZvp57qAG4DZioMlQBc2ZxUQtil3lLOpp1NCw=);
+  background-position: center; */
+}
+h4{
+  text-transform: uppercase;
+}
+  h3{
+    /* margin-left: 20px; */
+    color: green;
+    padding-left: 0.5%;
+}
+
+.column {
+  float: left;
+  width: 22.5%;
+  background-color: rgb(241, 102, 33);
+  margin: 1%;
+  padding: 1%;
+  padding-left: 2%;
+  color: white;
+  height: 150px;
+  font-family: serif;
+  border-radius: 8px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
